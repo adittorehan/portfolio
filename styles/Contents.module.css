@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    margin: 50px 0;      
+}
+
+.tabsContainer {
+    background-color: #212428;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    align-self: start;
+    position: sticky;
+    top: 20px;
+}
+
+.contentContainer {
+    flex-grow: 1;
+    background-color: #212428;
+    padding: 20px;
+    border-radius: 10px;
+
+}

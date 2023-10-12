@@ -16,8 +16,8 @@ export default function Heading() {
                         className={styles.headerImage}
                         src="/images/profile.png"
                         alt="Profile picture"
-                        width={240}
-                        height={260}
+                        width={200}
+                        height={200}
                         priority
                     />
                     <div style={{

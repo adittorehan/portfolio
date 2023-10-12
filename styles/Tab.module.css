@@ -1,0 +1,19 @@
+.container {
+    padding: 10px 20px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.container:hover {
+    background-color: #f9004d;
+}
+
+.container>p {
+    font-size: 18px;
+}
