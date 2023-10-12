@@ -43,7 +43,7 @@ export default function Heading() {
                         value={"adittorehanshaju@gmail.com"}
                         uriScheme={"mailto"}
                     />
-                    <hr style={{ height: 1 }} className="separator" />
+                    <hr style={{ height: 1, width: "100%" }} className="separator" />
                     <HeaderRightElement
                         name={"Phone"}
                         value={"+8801892445308"}
