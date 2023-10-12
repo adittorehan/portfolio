@@ -17,9 +17,15 @@ body {
     sans-serif;
   display: flex;
   justify-content: center;
-  background: #0f1113;
+  background: #1D1E24;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.separator {
+  background-color: #45494e;
+  border-radius: 6px;
+  border: none;
 }
