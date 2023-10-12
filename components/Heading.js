@@ -12,7 +12,7 @@ export default function Heading() {
 
             <div className={styles.header}>
                 <div className={styles.headerLeft}>
-                    <Image 
+                    <Image
                         className={styles.headerImage}
                         src="/images/profile.png"
                         alt="Profile picture"
@@ -38,9 +38,17 @@ export default function Heading() {
                 <div style={{ width: 1, margin: "0 30px" }} className="separator" />
 
                 <div className={styles.headerRight}>
-                    <HeaderRightElement name={"Email"} value={"adittorehanshaju@gmail.com"} />
+                    <HeaderRightElement
+                        name={"Email"}
+                        value={"adittorehanshaju@gmail.com"}
+                        uriScheme={"mailto"}
+                    />
                     <hr style={{ height: 1 }} className="separator" />
-                    <HeaderRightElement name={"Phone"} value={"+8801892445308"} />
+                    <HeaderRightElement
+                        name={"Phone"}
+                        value={"+8801892445308"}
+                        uriScheme={"tel"}
+                    />
                 </div>
 
             </div>
