@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    transition: background-color 0.5s, transform 0.5s;    
 }
 
 .container:not(:last-child) {
@@ -12,6 +13,7 @@
 
 .container:hover {
     background-color: #f9004d;
+    transform: scale(1.1);
 }
 
 .container>p {
