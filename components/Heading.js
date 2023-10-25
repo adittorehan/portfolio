@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 
 import styles from "../styles/Heading.module.css";
@@ -12,14 +13,23 @@ export default function Heading() {
 
             <div className={styles.header}>
                 <div className={styles.headerLeft}>
-                    <Image
-                        className={styles.headerImage}
-                        src="/images/profile.png"
-                        alt="Profile picture"
-                        width={200}
-                        height={200}
-                        priority
-                    />
+                    <div style={{
+                        marginRight: 20,
+                        justifyContent: "space-between",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center"
+                    }}>
+                        <Image
+                            className={styles.headerImage}
+                            src="/images/profile.png"
+                            alt="Profile picture"
+                            width={200}
+                            height={200}
+                            priority
+                        />
+                        <a href="#" className={styles.downloadButton}>Download Resume</a>
+                    </div>
                     <div style={{
                         display: "flex",
                         flexDirection: "column"
@@ -42,12 +52,14 @@ export default function Heading() {
                         name={"Email"}
                         value={"adittorehanshaju@gmail.com"}
                         uriScheme={"mailto"}
+                        faIcon={faEnvelope}
                     />
                     <hr style={{ height: 1, width: "100%" }} className="separator" />
                     <HeaderRightElement
                         name={"Phone"}
                         value={"+8801892445308"}
                         uriScheme={"tel"}
+                        faIcon={faPhone}
                     />
                 </div>
 

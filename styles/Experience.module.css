@@ -1,0 +1,14 @@
+.container {}
+
+.workContainer {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.main {
+    padding: 8px;
+    flex: 1;
+    overflow: hidden;
+}

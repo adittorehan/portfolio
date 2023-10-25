@@ -17,13 +17,13 @@ export default function Contents() {
     const ContentComponent = selectedTab ? contentComponents[selectedTab] : tabContents.AboutMe;
     return (
         <div className={styles.container}>
-            <div className={styles.tabsContainer}>
+            {/* <div className={styles.tabsContainer}>
                 {
                     tabs.map(
                         tab => <Tab key={tab} name={tab} selectedTab={selectedTab} handleOnClick={setSelectedTab} />
                     )
                 }
-            </div>
+            </div> */}
 
             <div className={styles.contentContainer}>
                 <ContentComponent />
